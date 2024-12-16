@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brainiacs - General Knowledge Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <h1>Brainiacs - General Knowledge Quiz</h1>
+        <div id="grade-selection">
+            <label for="grade">Select Your Grade:</label>
+            <select id="grade">
+                <option value="1">Grade 1</option>
+                <option value="2">Grade 2</option>
+                <option value="3">Grade 3</option>
+                <option value="4">Grade 4</option>
+                <option value="5">Grade 5</option>
+                <option value="6">Grade 6</option>
+            </select>
+            <button id="start-button">Start Quiz</button>
+        </div>
+        
+        <div id="question-container" style="display:none;">
+            <p id="question"></p>
+            <div id="options"></div>
+            <button id="next-button" style="display:none;">Next Question</button>
+        </div>
+
+        <div id="result" style="display:none;"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
